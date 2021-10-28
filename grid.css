@@ -1,0 +1,103 @@
+.gridcontainer {
+display: grid;
+height: 800px;
+grid-template-columns: repeat(4, 2fr);
+grid-template-rows: repeat(10, 2fr);
+grid-gap: 1px;
+background-color:#E9FDD6;
+align-items: stretch;
+justify-items: stretch;
+align-content: start;
+justify-content: end;
+}
+
+.header{
+    background-color:#69BF5E;
+    grid-column: 1/5;
+    grid-row:1/2;
+    text: white;
+    text-align: center;
+}
+
+.navbar {
+    background-color:#6FE38A;
+    grid-column: 1/5;
+    grid-row: 2/3;
+    text-align: right;
+    text: white;
+
+}
+
+.articleindex{
+    background-color: #52A873;
+    grid-column: 1/2;
+    grid-row: 5/7;
+    text: white;
+    text-align: center;
+}
+
+.asideindex{
+    background-color: #52A875;
+    grid-column: 4/4;
+    grid-row: 4/6;
+    text: white;
+    text-align: center;
+}
+
+.articleabout{
+    background-color: #52A873;
+    grid-column: 1/2;
+    grid-row: 5/7;
+    text: white;
+    text-align: center;
+}
+
+.articleabouttwo{
+    background-color: #52A873;
+    grid-column: 4/5;
+    grid-row: 3/6;
+    text-align: center;
+}
+
+.asideabout{
+    background-color: #52A875;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    text: white;
+    text-align: center;
+}
+
+.contactarticle{
+    background-color: #52A873;
+    grid-column: 1/3;
+    grid-row: 3/5;
+    text: white;
+    text-align: center;
+}
+
+.contactaside{
+    background-color:#52A875;
+    grid-column: 1/3;
+    grid-row: 3/6;
+    text-align: center;
+    text: white;
+
+
+
+}
+
+.contactarticletwo{
+    background-color: #52A875;
+    grid-column: 3/3;
+    grid-row: 3/6;
+    text-align: center;
+    text:white;
+}
+
+.footer{
+    background-color:#69BF5E;
+    grid-column: 1/5;
+    grid-row: 10/10;
+    text: white;
+    text-align: center;
+}
